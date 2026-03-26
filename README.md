@@ -17,10 +17,10 @@ End-to-end machine learning project untuk memprediksi employee attrition (resign
 Dataset yang digunakan adalah IBM HR Analytics Employee Attrition Dataset yang tersedia di Kaggle
 Dataset ini mencakup berbagai fitur seperti:
 
-Informasi demografis karyawan
-Data pekerjaan dan performa
-Faktor kepuasan kerja
-Riwayat attrition
+* Informasi demografis karyawan
+* Data pekerjaan dan performa
+* Faktor kepuasan kerja
+* Riwayat attrition
 
 Dataset digunakan untuk membangun model prediksi employee attrition.
 
@@ -76,7 +76,7 @@ Response:
 ```
 ---
 
-## 📈 Model
+##  Model
 
 Model yang digunakan:
 
