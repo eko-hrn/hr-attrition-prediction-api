@@ -23,7 +23,7 @@ Faktor kepuasan kerja
 Riwayat attrition
 
 Dataset digunakan untuk membangun model prediksi employee attrition.
----
+
 
 ##  Tech Stack
 
