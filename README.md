@@ -1,31 +1,33 @@
 # hr-attrition-prediction-api
 
-End-to-end machine learning project untuk memprediksi employee attrition (resign karyawan) menggunakan HR analytics.
+An end-to-end machine learning project to predict employee attrition (employee resignation) using HR analytics.
 
-##  Features
+## Features
 
 * Data preprocessing & cleaning
 * Handling imbalanced data (SMOTE)
-* Model training (Machine Learning)
+* Machine learning model training
 * Model evaluation
-* REST API menggunakan Flask
+* REST API using Flask
 
 ---
 
-##  Dataset
+## Dataset
 
-Dataset yang digunakan adalah IBM HR Analytics Employee Attrition Dataset yang tersedia di Kaggle
-Dataset ini mencakup berbagai fitur seperti:
+The dataset used is the **IBM HR Analytics Employee Attrition Dataset** available on Kaggle.
 
-* Informasi demografis karyawan
-* Data pekerjaan dan performa
-* Faktor kepuasan kerja
-* Riwayat attrition
+It includes various features such as:
 
-Dataset digunakan untuk membangun model prediksi employee attrition.
+* Employee demographic information
+* Job-related data and performance
+* Job satisfaction factors
+* Attrition history
 
+This dataset is used to build a predictive model for employee attrition.
 
-##  Tech Stack
+---
+
+## Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -35,7 +37,7 @@ Dataset digunakan untuk membangun model prediksi employee attrition.
 
 ---
 
-##  Installation
+## Installation
 
 ```bash
 git clone https://github.com/eko-hrn/hr-attrition-prediction-api.git
@@ -45,7 +47,7 @@ pip install -r requirements.txt
 
 ---
 
-##  Run API
+## Run API
 
 ```bash
 python app.py
@@ -53,11 +55,11 @@ python app.py
 
 ---
 
-##  API Endpoint
+## API Endpoint
 
 ### POST /predict
 
-Request:
+**Request:**
 
 ```json
 {
@@ -67,18 +69,19 @@ Request:
 }
 ```
 
-Response:
+**Response:**
 
 ```json
 {
   "prediction": "Yes"
 }
 ```
+
 ---
 
-##  Model
+## Model
 
-Model yang digunakan:
+The model used:
 
 * Random Forest
 
